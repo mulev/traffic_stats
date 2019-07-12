@@ -1,0 +1,6 @@
+version: '3'
+services:
+  stats:
+    build: .
+    volumes:
+      - "${LOG_DIR}:/usr/src/traffic_stats/log"
